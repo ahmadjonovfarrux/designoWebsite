@@ -1,0 +1,171 @@
+/* Font styles */
+/* Jost font */
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/jost-v20-latin-regular.woff2") format("woff2");
+}
+/* jost-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/jost-v20-latin-italic.woff2") format("woff2");
+}
+/* jost-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/jost-v20-latin-500.woff2") format("woff2");
+}
+/* jost-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/jost-v20-latin-700.woff2") format("woff2");
+}
+
+/* Manrope font */
+
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/manrope-v20-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/manrope-v20-latin-600.woff2") format("woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  max-width: 1360px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 17px 24px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #333136;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: #e7816b;
+  color: white;
+}
+
+/* Header */
+.header {
+  padding-top: 34px;
+  padding-bottom: 45px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #333136;
+}
+
+.header__container i {
+  display: none;
+}
+
+.header__item:hover .header__link {
+  text-decoration: underline;
+}
+
+.header__item:active .header__link {
+  opacity: 0.6;
+  transition: 0.4s all;
+}
+
+@media (max-width: 600px) {
+  .header__list {
+    display: none;
+  }
+
+  .header__container i {
+    display: block;
+    font-size: 24px;
+  }
+}
+
+/* Main  */
+/* Hero section */
+
+.hero__background {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url(../images/Oval.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-color: #e7816b;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.hero__content {
+  max-width: 520px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
