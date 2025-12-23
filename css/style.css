@@ -792,3 +792,125 @@ ol {
     border-radius: 0 15px 15px 0;
   }
 }
+
+@media (max-width: 670px) {
+  .webd__collection {
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .collection {
+    gap: 40px;
+  }
+
+  .collection__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .collection__content {
+    max-width: 340px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 15px 15px;
+  }
+}
+
+/* Project view styles */
+.project__view__container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
+  gap: 30px;
+}
+
+.project__view__item {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 16px;
+}
+
+.project__view__item:nth-child(1) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/appDesign.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.project__view__item:nth-child(1):hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/appDesign.png);
+}
+
+.project__view__item:nth-child(1):active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../images/appDesign.png);
+}
+
+.project__view__item:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/gaphicDesign.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.project__view__item:nth-child(2):hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/gaphicDesign.png);
+}
+
+.project__view__item:nth-child(2):active {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../images/gaphicDesign.png);
+}
+
+.project__view__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 2;
+  margin-bottom: 24px;
+}
+
+.project__view__text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+}
+
+.project__view__text span {
+  color: #e7816b;
+}
+
+@media (max-width: 605px) {
+  .project__view__container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .project__view__title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.2;
+    letter-spacing: 1.4px;
+    margin-bottom: 24px;
+  }
+}
