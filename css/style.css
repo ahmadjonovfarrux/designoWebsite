@@ -97,6 +97,10 @@ ol {
   color: white;
 }
 
+#active {
+  color: #e7816b;
+}
+
 /* Header */
 .header {
   padding-top: 34px;
