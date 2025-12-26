@@ -842,41 +842,6 @@ ol {
   border-radius: 16px;
 }
 
-.project__view__item:nth-child(1) {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/appDesign.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.project__view__item:nth-child(1):hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/appDesign.png);
-}
-
-.project__view__item:nth-child(1):active {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../images/appDesign.png);
-}
-
-.project__view__item:nth-child(2) {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/gaphicDesign.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.project__view__item:nth-child(2):hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/gaphicDesign.png);
-}
-
-.project__view__item:nth-child(2):active {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../images/gaphicDesign.png);
-}
 
 .project__view__title {
   font-weight: 500;
