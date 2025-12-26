@@ -1,8 +1,8 @@
-.appDesign__hero {
+.graphicDesign__hero {
   margin-bottom: 80px;
 }
 
-.appDesign__hero__container {
+.graphicDesign__hero__container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,20 +12,20 @@
   padding-top: 64px;
   padding-bottom: 64px;
   border-radius: 10px;
-  background-image: url(../images/appDesignOval.png);
+  background-image: url(../images/graphicDesignOval.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center left;
 }
 
-.appDesign__hero__title {
+.graphicDesign__title {
   font-weight: 500;
   font-size: 48px;
   line-height: 1;
   margin-bottom: 24px;
 }
 
-.appDesign__hero__text {
+.graphicDesign__text {
   max-width: 350px;
   width: 100%;
   font-weight: 400;
@@ -34,13 +34,13 @@
   text-align: center;
 }
 
-.appd__collection {
+.graphicD__collection {
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 @media (max-width: 815px) {
-  .appDesign__hero__container {
+  .graphicDesign__hero__container {
     background-image: url(../images/graphicdTablet.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,21 +49,21 @@
 }
 
 @media (max-width: 600px) {
-  .appDesign__hero__container {
+  .graphicDesign__hero__container {
     background-image: url(../images/designoMobileOval.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center right;
-    padding-right: 30px;
     padding-left: 30px;
+    padding-right: 30px;
   }
 
-  .appDesign__hero__title {
+  .graphicDesign__title {
     font-weight: 500;
     font-size: 32px;
     line-height: 1.1;
   }
-  .appDesign__hero__text {
+  .graphicDesign__text {
     font-weight: 400;
     font-size: 15px;
     line-height: 1.5;
@@ -95,7 +95,7 @@
 
 .project__view__item:nth-child(2) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../images/gaphicDesign.png);
+    url(../images/appDesign.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -103,10 +103,10 @@
 
 .project__view__item:nth-child(2):hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../images/gaphicDesign.png);
+    url(../images/appDesign.png);
 }
 
 .project__view__item:nth-child(2):active {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../images/gaphicDesign.png);
+    url(../images/appDesign.png);
 }
