@@ -1,0 +1,20 @@
+/* 
+
+.about__hero__content {
+  width: 65%;
+  padding: 135px 90px;
+  background-color: rgba(231, 129, 107, 1);
+  color: white;
+  background-image: url(../images/aboutHeroOval.png);
+  background-repeat: no-repeat;
+  background-position: center right;
+  border-radius: 16px 0 0 16px;
+}
+
+.about__hero__bg {
+  width: 35%;
+  background-image: url(../images/aboutHeroBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 16px 16px 0;
+}  */
