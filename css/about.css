@@ -247,6 +247,8 @@
   display: flex;
   flex-direction: column;
   align-items: start;
+  margin-left: 80px;
+  margin-right: 20px;
 }
 
 .deal__title {
