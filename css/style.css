@@ -842,7 +842,6 @@ ol {
   border-radius: 16px;
 }
 
-
 .project__view__title {
   font-weight: 500;
   font-size: 40px;
@@ -882,4 +881,56 @@ ol {
     letter-spacing: 1.4px;
     margin-bottom: 24px;
   }
+}
+
+/* Location section styles */
+.location {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.location__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.location__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location__box img {
+  width: 202px;
+  height: 202px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.location__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 5px;
+  color: #333136;
+  margin-bottom: 32px;
+}
+
+.location__btn {
+  background-color: #e7816b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 18px 18px 16px 18px;
+}
+
+.location__btn:hover {
+  opacity: 0.5;
+}
+
+.location__btn:active {
+  opacity: 0.3;
 }
