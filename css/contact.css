@@ -1,0 +1,77 @@
+.contact {
+  padding-bottom: 80px;
+}
+
+.contact__container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 60px;
+  background-image: url(../images/contactOval.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center left;
+  background-color: #e7816b;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 120px;
+  border-radius: 15px;
+}
+
+.contact__content {
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.contact__form {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 35px;
+}
+
+.contact__title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 32px;
+}
+
+.contact__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contact__form__input,
+.contact__form__textarea {
+  width: 380px;
+  background-color: inherit;
+  opacity: 0.7;
+  padding: 0 16px 11px 16px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+
+.contact__form__input::placeholder,
+.contact__form__textarea::placeholder {
+  color: white;
+}
+
+.contact__form__textarea {
+}
+
+.contact__btn {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #333136;
+}
